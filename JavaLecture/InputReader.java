@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class InputReader {
-
+    
     private static final BufferedReader bufferedReader = new BufferedReader(
         new InputStreamReader(System.in));
 
@@ -15,5 +15,9 @@ public class InputReader {
 
     public static String readInput() throws IOException {
         return bufferedReader.readLine();
+    }
+
+    public static boolean isEscape(String input) {
+        return input.isEmpty() || input.equals("0");
     }
 }

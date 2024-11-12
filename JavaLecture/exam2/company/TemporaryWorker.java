@@ -1,4 +1,4 @@
-package JavaLecture.company;
+package JavaLecture.exam2.company;
 
 public class TemporaryWorker extends Worker {
 

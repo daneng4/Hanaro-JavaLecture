@@ -1,4 +1,4 @@
-package JavaLecture.company;
+package JavaLecture.exam2.company;
 
 import java.util.ArrayList;
 import java.util.List;
